@@ -1,6 +1,7 @@
 # ErrorHandling Contract
 
-This is a Solidity Errorhandling  contract that will show different error handling techniques using `require`,`assert`, `revert`, and  functions.
+This is a Solidity smart contract that  utilizes assert, revert, and require functions in Solidity.
+
 
 ## License
 
@@ -12,9 +13,9 @@ This contract is using the MIT License.
 
 ## Description
 
-The `ErrorHandling` contract has three functions:
+The Smart contract has three functions:
 
-### 1.testAssert(uint num)
+### 1.function Assert(uint number)
 
 .This function demonstrates the usage of the `assert` function.
 
@@ -24,7 +25,7 @@ The `ErrorHandling` contract has three functions:
 
 .If the condition fails, it will automatically triggers an "Internal error" and aborts the execution.
 
-### 2.divide(uint _numerator, uint _denominator)
+### 2.function divide(uint _numerator, uint _denominator)
 
  .This function demonstrates the usage of the `revert` function.
  
@@ -36,7 +37,7 @@ The `ErrorHandling` contract has three functions:
  
  .If the condition met, it returns the result of the division.
 
-### 3.mult(uint a)
+### 3.function setValue(uint newValue)
 
 .This function demonstrates the usage of the `require` function.
 
